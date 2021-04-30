@@ -142,6 +142,36 @@
 				<key>TableSignature</key>
 				<data></data>
 			</dict>
+			<dict>
+				<key>Base</key>
+				<string>\_SB.PCI0.LPCB.HPET</string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
+				<key>Comment</key>
+				<string>HPET _CRS to XCRS</string>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Enabled</key>
+				<false/>
+				<key>Find</key>
+				<data>X0NSUw==</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data></data>
+				<key>Replace</key>
+				<data>WENSUw==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data></data>
+			</dict>
 		</array>
 		<key>Quirks</key>
 		<dict>
@@ -1315,7 +1345,7 @@
 		<key>Automatic</key>
 		<true/>
 		<key>CustomMemory</key>
-		<true/>
+		<false/>
 		<key>Generic</key>
 		<dict>
 			<key>AdviseWindows</key>
@@ -1338,98 +1368,6 @@
 			<string>C02CR0ASP3XY</string>
 			<key>SystemUUID</key>
 			<string>E42D20F0-9D85-43D9-86D4-46D26667F6E4</string>
-		</dict>
-		<key>Memory</key>
-		<dict>
-			<key>DataWidth</key>
-			<integer>64</integer>
-			<key>Devices</key>
-			<array>
-				<dict>
-					<key>AssetTag</key>
-					<string>123456789</string>
-					<key>BankLocator</key>
-					<string>BANK 0</string>
-					<key>DeviceLocator</key>
-					<string>ChannelA-DIMM0</string>
-					<key>Manufacturer</key>
-					<string>Acidanthera</string>
-					<key>PartNumber</key>
-					<string>M00001-4GB</string>
-					<key>SerialNumber</key>
-					<string>AAA000000001</string>
-					<key>Size</key>
-					<integer>4096</integer>
-					<key>Speed</key>
-					<integer>2666</integer>
-				</dict>
-				<dict>
-					<key>AssetTag</key>
-					<string></string>
-					<key>BankLocator</key>
-					<string>BANK 1</string>
-					<key>DeviceLocator</key>
-					<string>ChannelA-DIMM1</string>
-					<key>Manufacturer</key>
-					<string></string>
-					<key>PartNumber</key>
-					<string></string>
-					<key>SerialNumber</key>
-					<string></string>
-					<key>Size</key>
-					<integer>0</integer>
-					<key>Speed</key>
-					<integer>0</integer>
-				</dict>
-				<dict>
-					<key>AssetTag</key>
-					<string>123456789</string>
-					<key>BankLocator</key>
-					<string>BANK 2</string>
-					<key>DeviceLocator</key>
-					<string>ChannelB-DIMM0</string>
-					<key>Manufacturer</key>
-					<string>Acidanthera</string>
-					<key>PartNumber</key>
-					<string>M00001-4GB</string>
-					<key>SerialNumber</key>
-					<string>AAA000000002</string>
-					<key>Size</key>
-					<integer>4096</integer>
-					<key>Speed</key>
-					<integer>4096</integer>
-				</dict>
-				<dict>
-					<key>AssetTag</key>
-					<string></string>
-					<key>BankLocator</key>
-					<string>BANK 3</string>
-					<key>DeviceLocator</key>
-					<string>ChannelB-DIMM1</string>
-					<key>Manufacturer</key>
-					<string></string>
-					<key>PartNumber</key>
-					<string></string>
-					<key>SerialNumber</key>
-					<string></string>
-					<key>Size</key>
-					<integer>0</integer>
-					<key>Speed</key>
-					<integer>0</integer>
-				</dict>
-			</array>
-			<key>ErrorCorrection</key>
-			<integer>3</integer>
-			<key>FormFactor</key>
-			<integer>9</integer>
-			<key>MaxCapacity</key>
-			<integer>68719476736</integer>
-			<key>TotalWidth</key>
-			<integer>64</integer>
-			<key>Type</key>
-			<integer>26</integer>
-			<key>TypeDetail</key>
-			<integer>128</integer>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -1466,7 +1404,7 @@
 			<key>CustomDelays</key>
 			<string>Auto</string>
 			<key>KeyInitialDelay</key>
-			<integer>50</integer>
+			<integer>0</integer>
 			<key>KeySubsequentDelay</key>
 			<integer>5</integer>
 			<key>PointerSpeedDiv</key>
